@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { LayoutModule } from './layout/layout.module';
 import { PeopleComponent } from './people/people.component';
+import { HttpClientModule } from '@angular/common/http';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { PeopleComponent } from './people/people.component';
     BrowserAnimationsModule,
     MatSidenavModule,
     LayoutModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

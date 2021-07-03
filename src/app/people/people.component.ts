@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { PeopleService } from '../people.service';
 
 @Component({
   selector: 'app-people',
@@ -7,14 +8,13 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./people.component.scss']
 })
 export class PeopleComponent implements OnInit {
-  firstname : string = '';
-  constructor() { }
+  people : any;
+  displayedColumns: string[] = [ 'firstname', 'lastname', 'telephone'];
+  constructor(private peopleService : PeopleService) { }
 
   ngOnInit(): void {
+this.people = this.peopleService.getPeople().subscribe(data => {this.people = data},(err)=> console.log("Unable to get data" + err) );
   }
 
-  addPerson(formValue:NgForm){
-    console.log(formValue.value);
-  }
-
+ 
 }
