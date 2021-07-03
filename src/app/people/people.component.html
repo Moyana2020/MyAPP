@@ -1,0 +1,5 @@
+<form #addPersonForm="ngForm" (submit)="addPerson(addPersonForm)">
+    <input type="text" [(ngModel)]=firstname name="firstname">
+    <button type="submit" >Add Person</button>
+</form>
+<div>{{firstname}}</div>
