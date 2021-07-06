@@ -1,0 +1,25 @@
+[debug] [2021-07-06T17:18:37.750Z] ----------------------------------------------------------------------
+[debug] [2021-07-06T17:18:37.752Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Veneka\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-07-06T17:18:37.753Z] CLI Version:   9.14.0
+[debug] [2021-07-06T17:18:37.753Z] Platform:      win32
+[debug] [2021-07-06T17:18:37.753Z] Node Version:  v14.16.0
+[debug] [2021-07-06T17:18:37.762Z] Time:          Tue Jul 06 2021 19:18:37 GMT+0200 (South Africa Standard Time)
+[debug] [2021-07-06T17:18:37.762Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-06T17:18:37.769Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-06T17:18:37.770Z] > authorizing via signed-in user (sikumoyana@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Veneka\MyAPP
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
